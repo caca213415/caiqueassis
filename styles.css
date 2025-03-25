@@ -1,94 +1,93 @@
 :root {
-    --cor-principal: #ff5722; /* Cor principal do tema */
-    --cor-secundaria: #ffffff; /* Cor de fundo */
-    --cor-texto: #333333; /* Cor do texto */
-    --padding: 20px; /* Padding padrão */
-    --margin: 10px; /* Margin padrão */
+    --cor-principal: #ff5722; 
+    --cor-secundaria: #ffffff; 
+    --cor-texto: #333333; 
+    --padding: 20px; 
+    --margin: 10px;
 }
 
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
-    background-color: var(--cor-secundaria); /* Cor de fundo */
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-color: var(--cor-secundaria); 
 }
 
 header {
-    background-color: var(--cor-principal); /* Cor do cabeçalho */
-    padding: var(--padding); /* Padding do cabeçalho */
+    background-color: var(--cor-principal); 
+    padding: var(--padding); 
 }
 
 nav ul {
-    list-style-type: none; /* Remove marcadores da lista */
-    padding: 0; /* Remove padding da lista */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 nav ul li {
-    display: inline; /* Exibe itens da lista em linha */
-    margin-right: var(--margin); /* Margem entre itens */
+    display: inline; 
+    margin-right: var(--margin); 
 }
 
 nav a {
-    color: var(--cor-secundaria); /* Cor do texto do link */
-    text-decoration: none; /* Remove sublinhado dos links */
+    color: var(--cor-secundaria); 
+    text-decoration: none; 
 }
 
 .destaque {
-    text-align: center; /* Centraliza o texto */
-    padding: var(--padding); /* Padding da seção de destaque */
+    text-align: center; 
+    padding: var(--padding); 
 }
 
 .imagem-destaque {
-    max-width: 100%; /* Imagem responsiva */
-    height: auto; /* Mantém proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 
 section {
-    padding: var(--padding); /* Padding das seções */
-    margin: var(--margin); /* Margem entre seções */
+    padding: var(--padding); 
+    margin: var(--margin); 
 }
 
 .cards {
-    display: flex; /* Exibe os cards em linha */
-    justify-content: space-around; /* Espaçamento entre os cards */
+    display: flex;
+    justify-content: space-around; 
 }
 
 .card {
-    border: 1px solid var(--cor-texto); /* Borda dos cards */
-    padding: var(--padding); /* Padding dos cards */
-    margin: var(--margin); /* Margem entre os cards */
-    width: 30%; /* Largura dos cards */
-    text-align: center; /* Centraliza o texto dentro dos cards */
+    border: 1px solid var(--cor-texto);
+    padding: var(--padding); 
+    margin: var(--margin); 
+    width: 30%; 
+    text-align: center; 
 }
 
 .card h3 {
-    margin: 0; /* Remove margem do título do card */
+    margin: 0; 
 }
 
 button {
-    padding: 10px 20px; /* Padding do botão */
-    border: none; /* Remove borda do botão */
-    color: var(--cor-secundaria); /* Cor do texto do botão */
-    background-color: var(--cor-principal); /* Cor de fundo do botão */
-    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
-    transition: transform 0.3s; /* Transição suave para animação */
+    padding: 10px 20px; 
+    border: none; 
+    color: var(--cor-secundaria); 
+    background-color: var(--cor-principal); 
+    cursor: pointer; 
+    transition: transform 0.3s; 
 }
 
 .btn-1:hover {
-    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+    transform: scale(1.1);
 }
 
 .btn-2:hover {
-    transform: rotate(5deg); /* Rotaciona o botão ao passar o mouse */
+    transform: rotate(5deg); 
 }
 
 .btn-3:hover {
-    transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+    transform: translateY(-5px);
 }
 
 footer {
-    text-align: center; /* Centraliza o texto do rodapé */
-    padding: var(--padding); /* Padding do rodapé */
-    background-color: var(--cor-principal); /* Cor de fundo do rodapé */
-    color: var(--cor-secundaria); /* Cor do texto do rodapé */
-}
+    text-align: center; 
+    padding: var(--padding);
+    background-color: var(--cor-principal); 
+    color: var(--cor-secundaria); 
