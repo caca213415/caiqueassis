@@ -1,0 +1,94 @@
+:root {
+    --cor-principal: #ff5722; /* Cor principal do tema */
+    --cor-secundaria: #ffffff; /* Cor de fundo */
+    --cor-texto: #333333; /* Cor do texto */
+    --padding: 20px; /* Padding padrão */
+    --margin: 10px; /* Margin padrão */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    background-color: var(--cor-secundaria); /* Cor de fundo */
+}
+
+header {
+    background-color: var(--cor-principal); /* Cor do cabeçalho */
+    padding: var(--padding); /* Padding do cabeçalho */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding da lista */
+}
+
+nav ul li {
+    display: inline; /* Exibe itens da lista em linha */
+    margin-right: var(--margin); /* Margem entre itens */
+}
+
+nav a {
+    color: var(--cor-secundaria); /* Cor do texto do link */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.destaque {
+    text-align: center; /* Centraliza o texto */
+    padding: var(--padding); /* Padding da seção de destaque */
+}
+
+.imagem-destaque {
+    max-width: 100%; /* Imagem responsiva */
+    height: auto; /* Mantém proporção da imagem */
+}
+
+section {
+    padding: var(--padding); /* Padding das seções */
+    margin: var(--margin); /* Margem entre seções */
+}
+
+.cards {
+    display: flex; /* Exibe os cards em linha */
+    justify-content: space-around; /* Espaçamento entre os cards */
+}
+
+.card {
+    border: 1px solid var(--cor-texto); /* Borda dos cards */
+    padding: var(--padding); /* Padding dos cards */
+    margin: var(--margin); /* Margem entre os cards */
+    width: 30%; /* Largura dos cards */
+    text-align: center; /* Centraliza o texto dentro dos cards */
+}
+
+.card h3 {
+    margin: 0; /* Remove margem do título do card */
+}
+
+button {
+    padding: 10px 20px; /* Padding do botão */
+    border: none; /* Remove borda do botão */
+    color: var(--cor-secundaria); /* Cor do texto do botão */
+    background-color: var(--cor-principal); /* Cor de fundo do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: transform 0.3s; /* Transição suave para animação */
+}
+
+.btn-1:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+.btn-2:hover {
+    transform: rotate(5deg); /* Rotaciona o botão ao passar o mouse */
+}
+
+.btn-3:hover {
+    transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+}
+
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: var(--padding); /* Padding do rodapé */
+    background-color: var(--cor-principal); /* Cor de fundo do rodapé */
+    color: var(--cor-secundaria); /* Cor do texto do rodapé */
+}
